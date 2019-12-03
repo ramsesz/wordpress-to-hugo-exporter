@@ -1,0 +1,36 @@
+{
+        "name": "ramsesz/wordpress-to-hugo-exporter",
+        "version": "0.0.1",
+        "type": "wordpress-plugin",
+        "description": "Hugo is static site generator written in golang. Wordpress is a tool for remote access to your server ;-)",
+        "keywords": [
+                "export",
+                "wordpress"
+        ],
+        "license": "BSD-3-Clause",
+        "authors": [
+          {
+                  "name": "Ramses Zeulevoet",
+                  "email": "hello@ramsesz.be",
+                  "homepage": "https://www.ramsesz.be"
+          }
+        ],
+        "require": {
+                "php": "^7.0"
+        },
+        "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+        },
+        "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+        },
+        "extra": {
+          "branch-alias": {
+              "dev-master": "0.0.1"
+          }
+        }
+}
+
+
